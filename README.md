@@ -104,3 +104,37 @@ Also used classification reports and visual comparisons.
 4. Required packages:
    ```bash
    pip install pandas numpy seaborn matplotlib scikit-learn imbalanced-learn
+---
+
+## 📈 Results Summary
+
+- All models were trained and evaluated using the same dataset.
+- SMOTE significantly improved recall for the minority class (stroke = 1).
+- Random Forest and Logistic Regression showed balanced performance between precision and recall.
+- Confusion matrices and classification reports were used to interpret results.
+- ROC-AUC curves were plotted for each model to visualize true positive vs. false positive rates.
+
+---
+
+## 📌 Future Enhancements
+
+- Apply hyperparameter tuning using GridSearchCV or RandomizedSearchCV for better performance.
+- Introduce additional models such as XGBoost, LightGBM, or ensemble stacking.
+- Use cross-validation to improve generalization and reduce variance.
+- Integrate SHAP or LIME to provide explainability and interpret which features drive the predictions.
+- Deploy the model with a web interface (e.g., Streamlit or Flask) for real-time predictions.
+
+---
+
+## 👨‍💻 Author
+
+**Alaa Shorbaji**  
+Artificial Intelligence Instructor 
+Machine Learning and Healthcare AI Researcher  
+
+
+---
+
+## 📜 License
+
+This project is open-source and intended for educational and research use only. Proper citation and attribution are appreciated when reusing or modifying any part of this work.
